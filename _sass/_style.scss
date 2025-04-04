@@ -64,6 +64,12 @@ hr {
   background: $color-border;
 }
 
+.nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 h1,
 h2,
 h3,
@@ -73,6 +79,18 @@ h6 {
   line-height: 1.3;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+.side-note {
+  font-size: 0.9em;
+}
+
+.note-references-title {
+  margin-bottom: 1em;
+}
+
+.backlink-excerpt {
+  font-size: 0.9em;
 }
 
 a {
@@ -143,4 +161,57 @@ code {
 .invalid-link-brackets {
   color: #ccc;
   cursor: help;
+}
+
+// Theme toggle button styles
+#theme-toggle {
+  background: none;
+  border: none;
+  padding: 0.5em;
+  cursor: pointer;
+  font-size: 1.2em;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  margin-left: 1em;
+  
+  &:hover {
+    background-color: $color-box-background;
+  }
+  
+  &:focus {
+    outline: none;
+    background-color: $color-box-background;
+  }
+}
+
+// Table styles
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  
+  th, td {
+    color: $color-text;
+    border: 1px solid $color-border;
+    padding: 0.5em 1em;
+  }
+
+  th {
+    background-color: $color-box-background;
+    font-weight: bold;
+  }
+
+  tr {
+    &:nth-child(odd) {
+      background-color: white;
+    }
+    
+    &:nth-child(even) {
+      background-color: mix($color-primary, white, 2%);
+    }
+
+    &:hover {
+      background-color: $color-box-background;
+    }
+  }
 }
