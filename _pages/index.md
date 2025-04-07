@@ -7,9 +7,7 @@ permalink: /
 
 # Welcome, this is the place where I write what I learn! 🌱
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
-
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+This is the place where I share the knowledge I acquire, sometimes they are notes made in a simple way and sometimes they are more developed. But here you will be able to find everything I learn, this is my digital gardening.
 
 <strong>Notes</strong>
 
